@@ -1,0 +1,84 @@
+/*
+
+NAME: Mohammed Kabir
+File Description: This file style the contain shown in webpage
+*/
+
+
+/* Code for the main body style*/
+html body {
+  color: #367536;
+  font-family: "Nunito", sans-serif;
+  overflow-x: hidden;
+  background: rgb(231, 230, 175);
+}
+/* Code for the main heading*/
+h2 {
+    color: rgb(52, 133, 72);
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+}
+
+/* Code for the form*/
+#form{
+ border: 2px solid #ccc;
+ width: 50%;
+ height:40%;
+ margin-left: 25%;
+ background: #ccc
+}
+.form-group {
+  margin-left: 35%;
+}
+.form-group input{
+
+  width: 40%;
+}
+
+/* Code for the button*/
+.btn-default {
+  background-color: #67b38f !important;
+  color: #2d2937 !important;
+  margin-left: 35%;
+
+}
+.red {
+  color: #dc3545;
+}
+
+.main-table {
+  overflow-x: scroll;
+  margin-left: 5%;
+}
+
+.table #td {
+  padding: 0.5rem !important;
+}
+/*this code is for highlighting the center of the page*/
+.highlight_centered_margins {
+  background-color: rgb(231, 230, 175);
+  color: #866335;;
+  font-family: "Advent Pro";
+  font-size: 200%;
+  font-weight: 900;
+  margin: 10px;
+  text-align: center;
+}
+
+/*this is for top and left border of the table*/
+#row #topRow td,
+#row td:nth-child(1) {
+  background-color: #164966 !important;
+  color: #94963a !important;
+  text-align: center;
+  border: 1px solid #54a2d6;
+  font-weight: bold;
+  width: 5px;
+}
+
+/*alternating the color in each calculated box of the table*/
+tr:nth-child(odd) td:nth-child(2n + 3), tr:nth-child(even) td:nth-child(2n + 2) {
+  background-color: grey;
+}
